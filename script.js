@@ -8,7 +8,7 @@ work: "Karya",
 skill: "Keahlian",
 contact: "Kontak",
 
-title: "Kreator Visual & Front-End Developer",
+title: "Kreator Visual & Junior Front-End Developer",
 desc: "Video Editor • Desain Grafis • Pengembang Web",
 btn: "Lihat Karya",
 
@@ -27,7 +27,7 @@ work: "Works",
 skill: "Skills",
 contact: "Contact",
 
-title: "Visual Creator & Front-End Developer",
+title: "Visual Creator & Junior Front-End Developer",
 desc: "Video Editor • Graphic Designer • Web Developer",
 btn: "View Works",
 

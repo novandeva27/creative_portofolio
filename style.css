@@ -1006,5 +1006,28 @@ font-size:17px;
 width:40px;
 height:40px;
 }
+}
+.nav{
+align-items:center;
+}
 
+.nav ul{
+align-items:center;
+}
+
+.lang-switch{
+display:flex;
+align-items:center;
+justify-content:center;
+height:100%;
+margin-left:10px;
+}
+
+.lang-switch span{
+display:flex;
+align-items:center;
+}
+.nav a,
+.lang-switch span{
+line-height:1;
 }

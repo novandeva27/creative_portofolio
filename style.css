@@ -1031,3 +1031,88 @@ align-items:center;
 .lang-switch span{
 line-height:1;
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+   ========================= */
+
+@media (max-width: 768px){
+
+    /* Navbar */
+    .nav{
+        padding:15px 20px;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:12px;
+    }
+
+    /* Hero */
+    .hero h1{
+        font-size:38px;
+    }
+
+    .hero h2{
+        font-size:22px;
+    }
+
+    .hero p{
+        font-size:15px;
+        padding:0 15px;
+    }
+
+    /* Section */
+    .section{
+        padding:80px 20px;
+    }
+
+    /* Judul */
+    .judul{
+        font-size:30px;
+    }
+
+    /* Project besar menjadi normal */
+    .besar{
+        grid-column:span 1;
+    }
+
+    /* Youtube */
+    iframe{
+        height:200px;
+    }
+}
+
+/* HP kecil */
+@media (max-width: 480px){
+
+    .hero h1{
+        font-size:30px;
+    }
+
+    .hero h2{
+        font-size:18px;
+    }
+
+    .hero p{
+        font-size:14px;
+    }
+
+    .judul{
+        font-size:26px;
+    }
+
+    .about-container{
+        padding:25px;
+    }
+
+    .card h3{
+        font-size:18px;
+    }
+
+    iframe{
+        height:180px;
+    }
+}

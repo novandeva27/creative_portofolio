@@ -1,0 +1,25 @@
+{
+  "name": "creative-portfolio",
+  "version": "1.0.0",
+  "description": "Creative portfolio website with Vercel Web Analytics",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novandeva27/creative_portofolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novandeva27/creative_portofolio/issues"
+  },
+  "homepage": "https://github.com/novandeva27/creative_portofolio#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
